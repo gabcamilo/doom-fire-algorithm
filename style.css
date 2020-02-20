@@ -11,8 +11,19 @@ td{
 	vertical-align: center;
 	font-family: monospace;
 	size: 18px;
+	position: relative;
+}
+
+.pixel-index{
+	font-size: 10px;
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	color: #999;
 }
 
 h1{
 	font-size: 40px;
+	font-family: monospace;
 }

@@ -25,7 +25,7 @@ function renderFire() {
 		for (let column = 0; column < fireWidth; column++) {
 			const pixelIndex = column + (fireWidth * row);
 			html += '<td>';
-			html += pixelIndex;
+			html += `<div class="pixel-index">${pixelIndex}</div>`;
 			html += '</td>';
 		}
 		html += '</tr>';
@@ -33,6 +33,5 @@ function renderFire() {
 	html += '</table>';
 	document.querySelector('#fireCanvas').innerHTML = html;
 }
-
 
 start();
