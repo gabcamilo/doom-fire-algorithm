@@ -27,3 +27,9 @@ h1{
 	font-size: 40px;
 	font-family: monospace;
 }
+
+td.pixel{
+	width: 4px;
+	height: 4px;
+	border: 0;
+}
